@@ -853,3 +853,17 @@
 		body.is-ie #wrapper {
 			height: 100%;
 		}
+		
+		
+@media (max-width: 991px) {
+  .latest-posted-tasks-big {
+    text-align: center;
+  }
+  .latest-posted-tasks-big > * {
+    text-align: initial;
+  }
+  .latest-posted-tasks-big > .grid_task {
+    display: inline-block;
+    float: none;
+  }
+}
